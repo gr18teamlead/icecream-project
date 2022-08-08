@@ -1,0 +1,93 @@
+@import '~node_modules/modern-normalize/modern-normalize.css'; /* Reset */
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.menu-btn {
+  width: 209px;
+  height: 44px;
+  border-radius: 22px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.menu-btn_text {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #d41443;
+}
+
+.menu-btn_icon {
+  fill: #d41443;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.heaer_container {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon_svg {
+  fill: #D41443;
+}
+
+.mobile-menu-btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+@media screen and (min-width: 1200px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+}
+
+.mobile-menu-close {
+  opacity: 0;
+}/*# sourceMappingURL=index.css.map */
