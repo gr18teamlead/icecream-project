@@ -5,4 +5,8 @@ body {
     font-style: normal;
     font-weight: 500;
     color: var(--black-text-color);
+
+    &.no-scroll {
+            overflow: hidden;
+        }
 }
